@@ -1,60 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-}
-html{
-    position:absolute;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inconsolata&display=swap');
+body{
+    background-color:#0a192f;
 }
 
-body{
-    background-color: #0a192f;
-}
-.center-text{
-    position: relative;
-    top: 250px;
-    left: 291px;
-}
-.text1{
+.nav-link{
+    color: #ccd6f6;
     font-family: 'Inconsolata', monospace;
+    margin-top: 5px;
+}
+.nav-link:hover{
     color: #5beacb;
-    font-size: 3vh;
 }
-.name{
-    font-family: 'Nunito Sans', sans-serif;
-    color: #ccd6f6;
-    font-size: 4.5vh;
-}
-.name1{
-    font-family: 'Nunito Sans', sans-serif;
-    color: #8892b0;
-    font-size: 4.5vh;
-}
-.about{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 2vh;
-    color: #66728e;
-    margin-top: 2px;
-}
-ul{
-    display: flex;
-    justify-content: flex-start;
-    list-style-type: none;
-}
-.navigation-bar{
+.button-resume{
+    display: inline-block;
     position: relative;
-    top: 30px;
-}
-ul li a{
-    position: relative;
-    text-decoration: none;
-    color: #ccd6f6;
-    font-family: 'Inconsolata', monospace;
-    padding: 20px;
-    left: 140vh;  
-}
-ul li a button{
     font-family: 'Inconsolata', monospace;
     color:#5beacb;
     background-color: #0a192f;
@@ -62,11 +21,29 @@ ul li a button{
     border: 2px solid;
     border-radius: 5px;
 }
-ul li a button:hover{
+.button-resume:hover{
     color: #ccd6f6;
 }
-ul li a:hover{
-    color: #5beacb;
+/* #center{
+    text-align: center;
+} */
+.text1{
+    color:#5beacb ;
+    font-family: 'Inconsolata', monospace;
 }
-
-
+.Name{
+    color: #ccd6f6;
+    font-family: 'DM Sans', sans-serif;
+}
+.Build{
+    color: #8892b0;
+    font-family: 'DM Sans', sans-serif;
+}
+.about{
+    color:#7a85a2
+}
+#center{
+    position: relative;
+    top: 25vh;
+    left: 29px;
+}
